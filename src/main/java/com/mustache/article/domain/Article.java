@@ -22,4 +22,9 @@ public class Article {
 
     @Column(name = "article_content")
     private String content;
+
+    public Article(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
